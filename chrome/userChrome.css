@@ -22,7 +22,7 @@ html:not([privatebrowsingmode="temporary"]) #sidebar-box {
     width: 350px !important;
 }
 
-#sidebar-splitter {
+html:not([privatebrowsingmode="temporary"]) #sidebar-splitter {
 border: none !important;
 background: transparent !important;
 width: 1px !important;
@@ -40,7 +40,7 @@ html:not([privatebrowsingmode="temporary"]) .titlebar-buttonbox-container {
     justify-content: center;
 }
 
-#nav-bar {
+html:not([privatebrowsingmode="temporary"]) #nav-bar {
 width: calc(100% - 100px);
 }
 
