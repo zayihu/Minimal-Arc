@@ -40,7 +40,7 @@ html:not([privatebrowsingmode="temporary"]) .titlebar-buttonbox-container {
 }
 
 html:not([privatebrowsingmode="temporary"]) #nav-bar {
-width: calc(100% - 100px);
+    width: calc(100% - 100px);
 }
 
 html:not([privatebrowsingmode="temporary"]) #sidebar-header {
@@ -53,7 +53,7 @@ html:not([privatebrowsingmode="temporary"]) #identity-icon-label {
 
 html:not([privatebrowsingmode="temporary"]) #urlbar {
     left: 50% !important;
-    transform: translateX(calc(-50% + 100px));
+    transform: translateX(-50%);
     max-width: 960px !important;
 }
 
