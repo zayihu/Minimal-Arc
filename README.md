@@ -1,4 +1,4 @@
-# Minimal Arc
+# Minimal Arc by ![@zayihu](https://github.com/zayihu/Minimal-Arc)
 <p>
 Firefox CSS theme with minimal vertical tabs sidebar based on Sidebery.
 </p>
