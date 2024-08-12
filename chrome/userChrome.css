@@ -1,5 +1,13 @@
 html {
-  --custom-bg: #f1f1fa;
+  --custom-bg-light: #f1f1fa;
+  --custom-bg-dark: #2b2b2b;
+  --custom-bg: var(--custom-bg-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --custom-bg: var(--custom-bg-dark);
+  }
 }
 
 body {
